@@ -1,8 +1,8 @@
-# Basic unison/supersaw implimentation in this case.
+# Basic unison/supersaw implimentation
 Creates two arrays of oscillators detuned in opposite directions based on their index number. 
 Pans one array left and the other right for stereo for classic widening effect.
 
-## Ideas - 
+## Ideas
 - Add controls for detune amount, number of oscillators, waveform type.
 - Add UI elements for real-time control.
 - Modulate - I am currently taking appart different synthesisizers I have created in the past, and improving their flexibility.
