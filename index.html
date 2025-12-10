@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+    </div>
+    <div>
+        <canvas id="analyser" width="300" height="100"></canvas>
+    </div>
+
+    <div>
+        <!-- Controls the stereo panning of the audio output -->
+        <label for="unison">Unison voices:</label>
+        <input type="range" id="voices" min="2" max="16" value="8" id="panSlider" step="2" />
+        <span id="uniValue">8</span>
+    </div>
+
+</body>
+<script src = "unsion.js"></script>
+</html>
